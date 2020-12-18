@@ -1,7 +1,7 @@
 """
 Author: Melissa Strong
 
-This is a simple flashcard app using a SQLite3 database.
+This is a simple flashcard app using a CSV file.
 
 """
 import csv
@@ -32,6 +32,7 @@ def main():
         print(f"A: {card.back}\n\n")
         input("--Press Enter to continue to next card.")
         print("\n" * 4)
+
 
 def gen_cards(card_list):
     """
